@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Axel & Madison | March 14, 2027</title>
+
+https://fonts.googleapis.com
+https://fonts.gstatic.com
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500Montserrat:wght@300;400;500&display=swap
+
+<style>
+
+:root{
+    --mulberry:#7b3f61;
+    --champagne:#f7e7ce;
+    --cream:#faf8f5;
+    --dark:#2f2f2f;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:"Montserrat",sans-serif;
+    color:var(--dark);
+    background:var(--cream);
+}
+
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:rgba(255,255,255,.95);
+    backdrop-filter:blur(8px);
+    z-index:1000;
+    padding:15px 0;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    gap:30px;
+}
+
+nav a{
+    text-decoration:none;
+    color:var(--mulberry);
+    font-weight:500;
+}
+
+.hero{
+    height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),
+    url('https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1800&q=80');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:white;
+}
+
+.hero-content h1{
+    font-family:'Cormorant Garamond',serif;
+    font-size:6rem;
+    font-weight:600;
+}
+
+.hero-content h2{
+    font-weight:300;
+    letter-spacing:3px;
+    margin-top:10px;
+}
+
+.countdown{
+    margin-top:25px;
+    font-size:1.4rem;
+}
+
+section{
+    padding:100px 12%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+    font-family:'Cormorant Garamond',serif;
+    font-size:3.5rem;
+    color:var(--mulberry);
+}
+
+.story{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    line-height:2;
+}
+
+.details-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:35px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.card h3{
+    color:var(--mulberry);
+    margin-bottom:15px;
+}
+
+.rsvp{
+    background:var(--champagne);
+    text-align:center;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:15px 40px;
+    background:var(--mulberry);
+    color:white;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:500;
+}
+
+.footer{
+    background:var(--mulberry);
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+#accommodations{
+    background:white;
+}
+
+.hotel-card{
+    max-width:700px;
+    margin:auto;
+    text-align:center;
+}
+
+@media(max-width:768px){
+
+.hero-content h1{
+    font-size:3.5rem;
+}
+
+.section-title{
+    font-size:2.5rem;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<ul>
+<li>#storyOur Story</a></li>
+<li>#detailsWedding Details</a></li>
+<li>#accommodationsTravel</a></li>
+<li>#rsvpRSVP</a></li>
+</ul>
+</nav>
+
+<header class="hero">
+
+<div class="hero-content">
+
+<h1>Axel & Madison</h1>
+
+<h2>March 14, 2027</h2>
+
+<div id="countdown" class="countdown"></div>
+
+</div>
+
+</header>
+
+<section id="story">
+
+<h2 class="section-title">Our Story</h2>
+
+<div class="story">
+
+<p>
+Welcome to our wedding website. We're so excited
+to celebrate this special day with our family and friends.
+Thank you for being part of our journey and for sharing
+in this unforgettable chapter of our lives.
+</p>
+
+</div>
+
+</section>
+
+<section id="details">
+
+<h2 class="section-title">Wedding Details</h2>
+
+<div class="details-grid">
+
+<div class="card">
+<h3>Ceremony</h3>
+<p>March 14, 2027</p>
+<p>4:00 PM</p>
+</div>
+
+<div class="card">
+<h3>Venue</h3>
+<p>The Brodie Homestead</p>
+<p>Austin, Texas</p>
+</div>
+
+<div class="card">
+<h3>Reception</h3>
+<p>Dinner & Dancing</p>
+<p>Immediately Following</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="accommodations">
+
+<h2 class="section-title">Travel & Accommodations</h2>
+
+<div class="hotel-card">
+
+<p>
+Hotel recommendations and booking information
+will be available here closer to the wedding date.
+We look forward to welcoming our out-of-town guests.
+</p>
+
+</div>
+
+</section>
+
+<section id="rsvp" class="rsvp">
+
+<h2 class="section-title">RSVP</h2>
+
+<p>
+Please let us know if you'll be joining us.
+</p>
+
+https://forms.google.com
+RSVP Now
+</a>
+
+</section>
+
+<footer class="footer">
+
+<p>With Love, Axel & Madison</p>
+
+</footer>
+
+<script>
+
+const weddingDate = new Date("March 14, 2027 16:00:00").getTime();
+
+const timer = setInterval(function() {
+
+const now = new Date().getTime();
+
+const distance = weddingDate - now;
+
+const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+const hours = Math.floor((distance % (1000 * 60 * 60 * 24))
+/ (1000 * 60 * 60));
+
+const minutes = Math.floor((distance % (1000 * 60 * 60))
+/ (1000 * 60));
+
+document.getElementById("countdown").innerHTML =
+days + " Days • " + hours + " Hours • " + minutes +
+" Minutes Until We Say I Do";
+
+},1000);
+
+</script>
+
+</body>
+</html>
